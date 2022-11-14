@@ -30,7 +30,6 @@ var time=hour+minute; //example --> 16.37
 ////////////////////////////////////////////////////////
 
 var day=weekday[daynum];  //string
-day="Thursday"
 if (day == "Sunday") { sunday(time) }
 else if (day == "Monday") { monday(time) }
 else if (day == "Tuesday") { tuesday(time) }
